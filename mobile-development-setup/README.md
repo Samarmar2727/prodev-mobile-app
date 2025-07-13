@@ -1,20 +1,19 @@
-# Mobile Development Environment Setup
+# First Mobile App - Expo Router Template
 
-## Tools Installed
+## Steps Taken:
 
-- ✅ Node.js LTS (installed)
-- ✅ VS Code (installed)
-- ✅ Operating System: Windows
+1. Created project directory: `prodev-mobile-app-0x00`
+2. Initialized Expo app:npx create-expo-app@latest .
+3. Modified `app/(tabs)/index.tsx` to show ** First App Created**
+4. Ran the app using `npx expo start`
 
-## Expo Go
+## Project Reset
 
-- ❌ Expo Go not installed yet due to limited storage on device.
-- 🕓 Plan to install it later to test React Native apps.
+Used:
+npm run reset-project
 
-## Expo CLI
+### Observations:
 
-- ✅ Will install using `npm install -g expo-cli` before starting the app.
-
-## Notes
-
-- Setup in progress. Will complete mobile testing phase after clearing some space on device.
+- Reset removed `.expo` and `node_modules` folders.
+- Cleaned caches and restored fresh environment.
+- Useful for resolving unexpected issues during development.
